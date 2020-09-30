@@ -1,7 +1,8 @@
 name: Check Docker Version
 
-on: [push]
-
+on:
+  push:
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
